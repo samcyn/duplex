@@ -1,0 +1,13 @@
+// BULMA RIGHT HERE
+
+$navbar-background-color: transparent;
+$navbar-height : 98px;
+// $footer-background-color:red;
+
+@import "../plugins/bulma/sass/utilities/_all";
+@import "../plugins/bulma/sass/base/_all";
+
+@import "../plugins/bulma/sass/components/_all";
+@import "../plugins/bulma/sass/elements/_all";
+@import "../plugins/bulma/sass/layout/_all";
+@import "../plugins/bulma/sass/grid/columns";

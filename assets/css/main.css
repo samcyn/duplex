@@ -1,0 +1,72 @@
+/* line 1, /home/jide/Documents/repos/duplex/assets/scss/base/_base.scss */
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+/* line 1, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.header--bg-dark {
+  background-color: #2B2B2B;
+}
+
+/* line 5, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level {
+  height: 50px;
+}
+
+/* line 7, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* line 13, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level .level-left a {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 18, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level .level-left [class*='fa-'] {
+  color: #F8AA27;
+  font-size: 17px;
+  width: 30px;
+}
+
+/* line 25, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level .level-right a {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+/* line 28, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level .level-right a:hover {
+  color: #F8AA27;
+}
+
+/* line 35, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.navbar-item {
+  color: #FFFFFF;
+}
+
+/* line 37, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.navbar-item:hover {
+  color: #F8AA27 !important;
+}
+
+/* line 42, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.navbar-burger {
+  color: #FFFFFF;
+}
+
+/* line 46, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.logo {
+  border: 1px solid #FFFFFF;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 20px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=../css/main.map */

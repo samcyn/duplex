@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_main.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/components/_buttons.scss",
+		"../scss/components/_cards.scss"
+	],
+	"sourcesContent": [
+		"\n\n// BULMA ENDING \n\n@import 'base/_variables.scss';\n@import 'base/_mixins.scss';\n@import 'base/_reset.scss';\n@import 'base/_base.scss';\n\n@import 'modules/_typography.scss';\n\n@import 'layout/_header.scss';\n@import 'layout/_main.scss';\n@import 'layout/_footer.scss';\n\n\n\n@import 'components/_buttons.scss';\n@import 'components/_cards.scss';\n",
+		"$primary-color: #F8AA27;",
+		"\n// =============================================================================\n// Font Face\n// =============================================================================\n\n@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {\n\t$src: null;\n\n\t$extmods: (\n\t\teot: \"?\",\n\t\tsvg: \"#\" + str-replace($name, \" \", \"_\")\n\t);\n\n\t$formats: (\n\t\totf: \"opentype\",\n\t\tttf: \"truetype\"\n\t);\n\n\t@each $ext in $exts {\n\t\t$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);\n\t\t$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);\n\t\t$src: append($src, url(quote($path + \".\" + $extmod)) format(quote($format)), comma);\n\t}\n\n\t@font-face {\n\t\tfont-family: quote($name);\n\t\tfont-style: $style;\n\t\tfont-weight: $weight;\n\t\tsrc: $src;\n\t}\n}\n\n\n",
+		"",
+		".mr-0{\n  margin-right: 0 !important;\n}",
+		"",
+		".header--bg-dark{\n  background-color: #2B2B2B;\n}\n\n.level{\n  height: 50px;\n  a{\n    color: white;\n    font-weight: 500;\n    text-decoration: none;\n  }\n  .level-left{\n    a{\n      font-size: 11px;\n      display: flex;\n      align-items: center;\n    }\n    [class *='fa-']{\n      color: $primary-color;\n      font-size: 17px;\n      width: 30px;\n    }\n  }\n  .level-right{\n    a{\n      font-size: 16px;\n      margin-right: 20px;\n      &:hover{\n        color: $primary-color;\n      }\n    }\n  }\n}\n\n.navbar-item{\n  color: #FFFFFF;\n  &:hover{\n    color: $primary-color !important;\n  }\n}\n\n.navbar-burger{\n  color: #FFFFFF;\n}\n\n.logo{\n  border: 1px solid #FFFFFF;\n  font-size: 30px;\n  font-weight: 900;\n  line-height: 20px;\n  padding: 15px;\n}\n\n\n\n\n",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AIAA,AAAA,KAAK,CAAA;EACH,YAAY,EAAE,YAAa;CAC5B;;;AEFD,AAAA,gBAAgB,CAAA;EACd,gBAAgB,EAAE,OAAQ;CAC3B;;;AAED,AAAA,MAAM,CAAA;EACJ,MAAM,EAAE,IAAK;CA2Bd;;;AA5BD,AAEE,MAFI,CAEJ,CAAC,CAAA;EACC,KAAK,EAAE,KAAM;EACb,WAAW,EAAE,GAAI;EACjB,eAAe,EAAE,IAAK;CACvB;;;AANH,AAQI,MARE,CAOJ,WAAW,CACT,CAAC,CAAA;EACC,SAAS,EAAE,IAAK;EAChB,OAAO,EAAE,IAAK;EACd,WAAW,EAAE,MAAO;CACrB;;;AAZL,AAakB,MAbZ,CAOJ,WAAW,EAMT,AAAA,KAAC,EAAQ,KAAK,AAAb,EAAc;EACb,KAAK,ELlBK,OAAO;EKmBjB,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,IAAK;CACb;;;AAjBL,AAoBI,MApBE,CAmBJ,YAAY,CACV,CAAC,CAAA;EACC,SAAS,EAAE,IAAK;EAChB,YAAY,EAAE,IAAK;CAIpB;;;AA1BL,AAoBI,MApBE,CAmBJ,YAAY,CACV,CAAC,AAGE,MAAM,CAAA;EACL,KAAK,EL5BG,OAAO;CK6BhB;;;AAKP,AAAA,YAAY,CAAA;EACV,KAAK,EAAE,OAAQ;CAIhB;;;AALD,AAAA,YAAY,AAET,MAAM,CAAA;EACL,KAAK,ELrCO,OAAO,CKqCG,UAAU;CACjC;;;AAGH,AAAA,cAAc,CAAA;EACZ,KAAK,EAAE,OAAQ;CAChB;;;AAED,AAAA,KAAK,CAAA;EACH,MAAM,EAAE,iBAAkB;EAC1B,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,OAAO,EAAE,IAAK;CACf",
+	"names": []
+}

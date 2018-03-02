@@ -1,8 +1,8 @@
 .footer{
   padding: 80px 0 10px 0 !important;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  // position: absolute;
+  // bottom: 0;
+  // width: 100%;
 }
 
 .footer__top{
@@ -104,5 +104,8 @@
 }
 
 .level--footer{
-  height: 60px;
+  @media (min-width: 771px) {
+    height: 60px;
+  } 
 }
+

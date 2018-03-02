@@ -1,13 +1,31 @@
-%hover {
-  color: $primary-color;
+%links {
+  color: #FFFFFF;
+  &:hover{
+    color: $primary-color !important;
+  }
 }
 
 .header--bg-dark{
   background-color: #2B2B2B;
 }
 
+.level--custom{
+  a{
+    @extend %links;
+    font-size: 16px;
+    margin-right: 20px;
+    // &:hover{
+    //   color: $primary-color;
+    // }
+  }
+}
+
+
 .level{
-  height: 50px;
+  &.level--header{
+    height: 50px;
+  }
+  
   a{
     color: white;
     font-weight: 500;
@@ -25,22 +43,14 @@
       width: 30px;
     }
   }
-  .level-right{
-    a{
-      font-size: 16px;
-      margin-right: 20px;
-      &:hover{
-        color: $primary-color;
-      }
-    }
-  }
 }
 
 .navbar-item{
-  color: #FFFFFF;
-  &:hover{
-    color: $primary-color !important;
-  }
+  // color: #FFFFFF;
+  // &:hover{
+  //   color: $primary-color !important;
+  // }
+  @extend %links;
 }
 
 .navbar-burger{

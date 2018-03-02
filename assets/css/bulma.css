@@ -833,12 +833,12 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 
 /* line 97, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/base/helpers.sass */
 .has-text-primary {
-  color: #00d1b2 !important;
+  color: #F8AA27 !important;
 }
 
 /* line 100, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/base/helpers.sass */
 a.has-text-primary:hover, a.has-text-primary:focus {
-  color: #009e86 !important;
+  color: #e59207 !important;
 }
 
 /* line 97, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/base/helpers.sass */
@@ -2140,19 +2140,19 @@ a.dropdown-item.is-active {
 
 /* line 42, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/message.sass */
 .message.is-primary {
-  background-color: #f5fffd;
+  background-color: #fffbf5;
 }
 
 /* line 44, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/message.sass */
 .message.is-primary .message-header {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
 /* line 47, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/message.sass */
 .message.is-primary .message-body {
-  border-color: #00d1b2;
-  color: #021310;
+  border-color: #F8AA27;
+  color: #54390b;
 }
 
 /* line 42, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/message.sass */
@@ -2749,7 +2749,7 @@ a.dropdown-item.is-active {
 
 /* line 55, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/navbar.sass */
 .navbar.is-primary {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -2763,7 +2763,7 @@ a.dropdown-item.is-active {
 .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #00b89c;
+  background-color: #f7a00e;
   color: #fff;
 }
 
@@ -2788,7 +2788,7 @@ a.dropdown-item.is-active {
   .navbar.is-primary .navbar-end > a.navbar-item.is-active,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #00b89c;
+    background-color: #f7a00e;
     color: #fff;
   }
   /* line 84, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/navbar.sass */
@@ -2799,12 +2799,12 @@ a.dropdown-item.is-active {
   /* line 86, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/navbar.sass */
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #00b89c;
+    background-color: #f7a00e;
     color: #fff;
   }
   /* line 92, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/navbar.sass */
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-    background-color: #00d1b2;
+    background-color: #F8AA27;
     color: #fff;
   }
 }
@@ -4779,14 +4779,14 @@ a.box:active {
 
 /* line 106, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 110, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary:hover, .button.is-primary.is-hovered {
-  background-color: #00c4a7;
+  background-color: #f8a51b;
   border-color: transparent;
   color: #fff;
 }
@@ -4799,19 +4799,19 @@ a.box:active {
 
 /* line 119, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(248, 170, 39, 0.25);
 }
 
 /* line 121, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary:active, .button.is-primary.is-active {
-  background-color: #00b89c;
+  background-color: #f7a00e;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 126, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary[disabled] {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   border-color: transparent;
   box-shadow: none;
 }
@@ -4819,7 +4819,7 @@ a.box:active {
 /* line 130, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-inverted {
   background-color: #fff;
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 133, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
@@ -4832,7 +4832,7 @@ a.box:active {
   background-color: #fff;
   border-color: transparent;
   box-shadow: none;
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 141, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
@@ -4843,28 +4843,28 @@ a.box:active {
 /* line 143, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #00d1b2;
-  color: #00d1b2;
+  border-color: #F8AA27;
+  color: #F8AA27;
 }
 
 /* line 147, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined:focus {
-  background-color: #00d1b2;
-  border-color: #00d1b2;
+  background-color: #F8AA27;
+  border-color: #F8AA27;
   color: #fff;
 }
 
 /* line 153, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined.is-loading:after {
-  border-color: transparent transparent #00d1b2 #00d1b2 !important;
+  border-color: transparent transparent #F8AA27 #F8AA27 !important;
 }
 
 /* line 155, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined[disabled] {
   background-color: transparent;
-  border-color: #00d1b2;
+  border-color: #F8AA27;
   box-shadow: none;
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 160, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
@@ -4877,7 +4877,7 @@ a.box:active {
 /* line 164, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
 .button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined:focus {
   background-color: #fff;
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 168, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/button.sass */
@@ -6046,7 +6046,7 @@ a.box:active {
 /* line 78, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .input.is-primary,
 .textarea.is-primary {
-  border-color: #00d1b2;
+  border-color: #F8AA27;
 }
 
 /* line 80, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
@@ -6055,7 +6055,7 @@ a.box:active {
 .textarea.is-primary.is-focused,
 .textarea.is-primary:active,
 .textarea.is-primary.is-active {
-  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(248, 170, 39, 0.25);
 }
 
 /* line 78, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
@@ -6449,12 +6449,12 @@ a.box:active {
 
 /* line 187, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .select.is-primary select {
-  border-color: #00d1b2;
+  border-color: #F8AA27;
 }
 
 /* line 189, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .select.is-primary select:focus, .select.is-primary select.is-focused, .select.is-primary select:active, .select.is-primary select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(248, 170, 39, 0.25);
 }
 
 /* line 187, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
@@ -6699,14 +6699,14 @@ a.box:active {
 
 /* line 235, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .file.is-primary .file-cta {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 241, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .file.is-primary:hover .file-cta, .file.is-primary.is-hovered .file-cta {
-  background-color: #00c4a7;
+  background-color: #f8a51b;
   border-color: transparent;
   color: #fff;
 }
@@ -6714,13 +6714,13 @@ a.box:active {
 /* line 247, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .file.is-primary:focus .file-cta, .file.is-primary.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
+  box-shadow: 0 0 0.5em rgba(248, 170, 39, 0.25);
   color: #fff;
 }
 
 /* line 253, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .file.is-primary:active .file-cta, .file.is-primary.is-active .file-cta {
-  background-color: #00b89c;
+  background-color: #f7a00e;
   border-color: transparent;
   color: #fff;
 }
@@ -7174,7 +7174,7 @@ a.box:active {
 
 /* line 412, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
 .help.is-primary {
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 412, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/form.sass */
@@ -7780,7 +7780,7 @@ a.box:active {
 
 /* line 33, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/notification.sass */
 .notification.is-primary {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -7915,17 +7915,17 @@ a.box:active {
 
 /* line 28, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/progress.sass */
 .progress.is-primary::-webkit-progress-value {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
 }
 
 /* line 30, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/progress.sass */
 .progress.is-primary::-moz-progress-bar {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
 }
 
 /* line 32, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/progress.sass */
 .progress.is-primary::-ms-fill {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
 }
 
 /* line 28, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/progress.sass */
@@ -8069,8 +8069,8 @@ a.box:active {
 /* line 36, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/table.sass */
 .table td.is-primary,
 .table th.is-primary {
-  background-color: #00d1b2;
-  border-color: #00d1b2;
+  background-color: #F8AA27;
+  border-color: #F8AA27;
   color: #fff;
 }
 
@@ -8124,7 +8124,7 @@ a.box:active {
 /* line 44, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/table.sass */
 .table td.is-selected,
 .table th.is-selected {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -8144,7 +8144,7 @@ a.box:active {
 
 /* line 54, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/table.sass */
 .table tr.is-selected {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -8338,7 +8338,7 @@ a.box:active {
 
 /* line 61, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/tag.sass */
 .tag:not(body).is-primary {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -9154,7 +9154,7 @@ a.tag:hover {
 
 /* line 17, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/layout/hero.sass */
 .hero.is-primary {
-  background-color: #00d1b2;
+  background-color: #F8AA27;
   color: #fff;
 }
 
@@ -9183,7 +9183,7 @@ a.tag:hover {
 @media screen and (max-width: 1023px) {
   /* line 30, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/layout/hero.sass */
   .hero.is-primary .navbar-menu {
-    background-color: #00d1b2;
+    background-color: #F8AA27;
   }
 }
 
@@ -9197,7 +9197,7 @@ a.tag:hover {
 .hero.is-primary a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active,
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary .navbar-link.is-active {
-  background-color: #00b89c;
+  background-color: #f7a00e;
   color: #fff;
 }
 
@@ -9231,18 +9231,18 @@ a.tag:hover {
 .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #00d1b2;
+  color: #F8AA27;
 }
 
 /* line 64, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/layout/hero.sass */
 .hero.is-primary.is-bold {
-  background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
+  background-image: linear-gradient(141deg, #ec6d00 0%, #F8AA27 71%, #fed53b 100%);
 }
 
 @media screen and (max-width: 768px) {
   /* line 69, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/layout/hero.sass */
   .hero.is-primary.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
+    background-image: linear-gradient(141deg, #ec6d00 0%, #F8AA27 71%, #fed53b 100%);
   }
 }
 

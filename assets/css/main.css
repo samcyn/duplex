@@ -43,7 +43,7 @@
   padding-bottom: 0 !important;
 }
 
-/* line 1, /home/jide/Documents/repos/duplex/assets/scss/modules/_logo.scss */
+/* line 5, /home/jide/Documents/repos/duplex/assets/scss/modules/_logo.scss */
 .logo {
   border: 2px solid #FFFFFF;
   font-size: 30px;
@@ -53,59 +53,54 @@
   max-width: 150px;
 }
 
-/* line 5, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 1, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.logo-wrap, .level--custom a, .navbar-item {
+  color: #FFFFFF;
+}
+
+/* line 3, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.logo-wrap:hover, .level--custom a:hover, .navbar-item:hover {
+  color: #F8AA27 !important;
+}
+
+/* line 8, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .header--bg-dark {
   background-color: #2B2B2B;
 }
 
-/* line 9, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
-.level {
+/* line 13, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level--custom a {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+/* line 25, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+.level.level--header {
   height: 50px;
 }
 
-/* line 11, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 29, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level a {
   color: white;
   font-weight: 500;
   text-decoration: none;
 }
 
-/* line 17, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 35, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level .level-left a {
   align-items: center;
   font-size: 11px;
   display: flex;
 }
 
-/* line 22, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 40, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level .level-left [class*='fa-'] {
   color: #F8AA27;
   font-size: 17px;
   width: 30px;
 }
 
-/* line 29, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
-.level .level-right a {
-  font-size: 16px;
-  margin-right: 20px;
-}
-
-/* line 32, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
-.level .level-right a:hover {
-  color: #F8AA27;
-}
-
-/* line 39, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
-.navbar-item {
-  color: #FFFFFF;
-}
-
-/* line 41, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
-.navbar-item:hover {
-  color: #F8AA27 !important;
-}
-
-/* line 46, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 56, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .navbar-burger {
   color: #FFFFFF;
 }
@@ -113,9 +108,6 @@
 /* line 1, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
 .footer {
   padding: 80px 0 10px 0 !important;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 /* line 8, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
@@ -231,9 +223,11 @@
   padding: 12px 0;
 }
 
-/* line 106, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
-.level--footer {
-  height: 60px;
+@media (min-width: 771px) {
+  /* line 106, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
+  .level--footer {
+    height: 60px;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */

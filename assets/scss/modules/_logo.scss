@@ -1,3 +1,7 @@
+.logo-wrap{
+  @extend %links;
+}
+
 .logo{
   border: 2px solid #FFFFFF;
   font-size: 30px;

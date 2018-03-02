@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../scss/modules/logo.css",
+	"sources": [
+		"../../scss/modules/logo.scss"
+	],
+	"sourcesContent": [
+		".logo{\n  border: 1px solid #FFFFFF;\n  font-size: 30px;\n  font-weight: 900;\n  line-height: 20px;\n  padding: 15px;\n  max-width: 150px;\n}"
+	],
+	"mappings": ";AAAA,AAAA,KAAK,CAAA;EACH,MAAM,EAAE,iBAAkB;EAC1B,SAAS,EAAE,IAAK;EAChB,WAAW,EAAE,GAAI;EACjB,WAAW,EAAE,IAAK;EAClB,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,KAAM;CAClB",
+	"names": []
+}

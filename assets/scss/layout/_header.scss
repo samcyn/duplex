@@ -1,3 +1,7 @@
+%hover {
+  color: $primary-color;
+}
+
 .header--bg-dark{
   background-color: #2B2B2B;
 }
@@ -11,9 +15,9 @@
   }
   .level-left{
     a{
+      align-items: center;
       font-size: 11px;
       display: flex;
-      align-items: center;
     }
     [class *='fa-']{
       color: $primary-color;
@@ -43,13 +47,7 @@
   color: #FFFFFF;
 }
 
-.logo{
-  border: 1px solid #FFFFFF;
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 20px;
-  padding: 15px;
-}
+
 
 
 

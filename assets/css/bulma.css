@@ -3661,7 +3661,7 @@ a.navbar-link.is-active {
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -4215,7 +4215,7 @@ a.box:active {
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -5867,7 +5867,7 @@ a.box:active {
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -6284,7 +6284,7 @@ a.box:active {
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -7048,7 +7048,7 @@ a.box:active {
   -webkit-appearance: none;
   align-items: center;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 0;
   box-shadow: none;
   display: inline-flex;
   font-size: 1rem;
@@ -9852,7 +9852,7 @@ a.tag:hover {
 
 /* line 3, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/layout/footer.sass */
 .footer {
-  background-color: whitesmoke;
+  background-color: #2B2B2B;
   padding: 3rem 1.5rem 6rem;
 }
 

@@ -1,0 +1,108 @@
+.footer{
+  padding: 80px 0 10px 0 !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__top{
+  padding-bottom: 70px;
+}
+
+.footer__logo-wrap{
+  margin-bottom: 12px;
+  a{
+    color: #FFF;
+    display: block;
+  }
+}
+
+.footer__contents{
+  .footer__title{
+    height: 40px;
+  }
+  .footer__head{
+    font-size: 18px;
+    color: #FFF;
+    text-transform: capitalize;
+    line-height: normal !important;
+  }
+  .footer__text{
+    color: #B9B9B9;
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .footer__text-link{
+    color: #B9B9B9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    &:hover{
+      color: $primary-color;
+    }
+  }
+  .footer__date-time{
+    color: #959595;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: -4px;
+  }
+  .footer__text-contact{
+    color: #B9B9B9;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+    span{
+      color: $primary-color;
+      font-size: 18px;
+      margin: 10px 10px 0 1px;
+      // padding-top: 15px;
+    }
+  }
+
+  .footer__form{
+    input.input{
+      border: 0;
+      box-shadow: none;
+      color: #5C5C5C;
+      font-size: 16px;
+      font-style: italic;
+      height: 45px;
+      outline: 0;
+      padding-right: 55px;
+    }
+    button{
+      position: absolute;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      outline: 0;
+      width: 55px;
+    }
+  }
+
+  .footer__thumbnail{
+    &.footer__thumbnail-w{
+      width: 60px; 
+      height: 55px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+
+  .footer__gallery{
+    // @media(min-width: 1083px){
+    //   max-width: 80%;
+    // }
+    padding: 12px 0; //the padding taken off in gallery columns now added back, a simple trick right
+  } 
+ 
+}
+
+.level--footer{
+  height: 60px;
+}

@@ -33,10 +33,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Samson Iyanda** - ** - [](https://github.com/samcyn)
+* **[Samson Iyanda](https://github.com/samcyn)** - ** -
 
-* **Halimaheniola** - ** - [](https://github.com/halimaheniola)
+* **[Halimaheniola](https://github.com/halimaheniola)** - ** -
 
-* **Eddy983** - ** - [](https://github.com/eddy983)
+* **[Eddy983](https://github.com/eddy983)** - ** -
 
-* **Nureni Imam** - ** - [](https://github.com/Nurxni)
+* **[Nureni Imam](https://github.com/Nurxni)** - ** 

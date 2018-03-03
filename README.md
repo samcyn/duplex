@@ -9,8 +9,8 @@ To get started simply clone the project and read the information on the blank.ht
 
 ### And coding style 
 
-BEM FOR NAMING CONVENTION
-2 SPACE TAB INDENTATION
+####### BEM FOR NAMING CONVENTION
+####### 2 SPACE TAB INDENTATION
 
 ```
   <div class="logo logo--red">

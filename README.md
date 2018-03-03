@@ -7,10 +7,11 @@ A group project for students at Univelcity
 To get started simply clone the project and read the information on the blank.html file
 
 
-### And coding style 
+## And coding style 
 
-####### BEM FOR NAMING CONVENTION
-####### 2 SPACE TAB INDENTATION
+BEM FOR NAMING CONVENTIONS
+2 SPACE TAB INDENTATION
+AIRBNB STYLE GUIDE
 
 ```
   <div class="logo logo--red">
@@ -20,11 +21,18 @@ To get started simply clone the project and read the information on the blank.ht
   </div>
 ```
 
+## Contributing
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
 
 
 ## Built With
 
-* [BULMA](http://www.bulma.io) - The CSS framework 
+* [BULMA](http://www.bulma.io) - CSS framework based on Flexbox
 
 
 ## Authors

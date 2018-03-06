@@ -29,7 +29,6 @@ AIRBNB STYLE GUIDE
 5. Submit a pull request :D
 
 
-
 ## Built With
 
 * [BULMA](http://www.bulma.io) - CSS framework based on Flexbox
@@ -39,8 +38,14 @@ AIRBNB STYLE GUIDE
 
 * **[Samson Iyanda](https://github.com/samcyn)** 
 
-* **[Halimaheniola](https://github.com/halimaheniola)** 
+* **[Halima Adelaja](https://github.com/halimaheniola)** 
 
-* **[Eddy983](https://github.com/eddy983)** 
+* **[Edidiong Isong](https://github.com/eddy983)** 
 
 * **[Nureni Imam](https://github.com/Nurxni)**
+
+* **[Uche Emma](https://github.com/UCHEEMMA)**
+
+* **[Vivian Egwu](https://github.com/vivianegwu)**
+
+* **[Grace Ezeani](https://github.com/gracie121)**

@@ -105,6 +105,104 @@
   color: #FFFFFF;
 }
 
+.nav-space .small-icon{
+  width:8px;
+  height:8px;
+  border:1px solid #e67e22;
+  transform:rotate(45deg);
+  margin-top: 47px;
+}
+
+.nav-space{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-content: center;
+}
+
+
+.banner{
+  width:100%;
+  height:150px;
+  background-color: #EEE;
+
+}
+.hero{
+  align-items: center;
+  padding-top: 15px;
+}
+.hero h5{
+  margin-top:10px;
+}
+.hero h1:after{
+  
+  border-bottom: 2px solid #e67e22;
+  width:15px;
+  display:block;
+  content:" ";
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.banner__below{
+  width:100%;
+  height:100px;
+  
+}
+.banner__below h5{
+  color:#e67e22;
+  position: absolute;
+  margin-top: 64px;
+  left:46%;
+
+}
+.banner__texts h2{
+  position:absolute;
+  left:45%;
+}
+.banner__texts h2:after{
+  border-bottom: 2px solid #e67e22;
+  width:15px;
+  display: block;
+  content: " ";
+  margin:0 auto;
+  margin-top: 10px;
+
+}
+.banner__texts p{
+  padding:60px 130px; 
+}
+
+.box-33{
+  height:200px;
+  width:100%;
+  background-color: #EEE;
+  
+}
+
+.box-80{
+  height: 420px;
+  width:100%;
+  background-color: #EEE;
+
+}
+.box-20{
+  height:200px;
+  width: 100%;
+  background-color: #EEE;
+}
+.box-70{
+  height:420px;
+  width:100%;
+  background-color:#EEE;
+}
+.actual__image{
+  height:200px;
+  width:100%;
+}
+.actual__emage{
+  height:420px;
+  width:100%;
+}
+
 /* line 1, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
 .footer {
   padding: 80px 0 10px 0 !important;
@@ -137,6 +235,14 @@
   color: #FFF;
   text-transform: capitalize;
   line-height: normal !important;
+}
+.footer__title h4:after{
+  
+  border-bottom: 2px solid #e67e22;
+  width:15px;
+  display:block;
+  content:" ";
+  margin-top: 5px;
 }
 
 /* line 30, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */

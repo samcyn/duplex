@@ -1461,6 +1461,59 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   user-select: none;
 }
 
+/* line 1, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 1, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container {
+    max-width: 960px;
+    width: 960px;
+  }
+  /* line 7, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container.is-fluid {
+    margin-left: 32px;
+    margin-right: 32px;
+    max-width: none;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  /* line 13, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container.is-widescreen {
+    max-width: 1152px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1407px) {
+  /* line 17, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container.is-fullhd {
+    max-width: 1344px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  /* line 1, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container {
+    max-width: 1152px;
+    width: 1152px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  /* line 1, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/elements/container.sass */
+  .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
+}
+
 /* line 7, /home/jide/Documents/repos/duplex/assets/plugins/bulma/sass/components/breadcrumb.sass */
 .breadcrumb {
   -webkit-touch-callout: none;

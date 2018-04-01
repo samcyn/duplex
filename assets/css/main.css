@@ -43,6 +43,13 @@
   padding-bottom: 0 !important;
 }
 
+@media (max-width: 1024px) {
+  /* line 38, /home/jide/Documents/repos/duplex/assets/scss/base/_base.scss */
+  .container {
+    padding: 0 15px;
+  }
+}
+
 /* line 5, /home/jide/Documents/repos/duplex/assets/scss/modules/_logo.scss */
 .logo {
   border: 2px solid #FFFFFF;
@@ -61,43 +68,51 @@
 /* line 3, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .logo-wrap:hover, .level--custom a:hover, .navbar-item:hover {
   color: #F8AA27 !important;
+  background-color: transparent !important;
 }
 
-/* line 8, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 9, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .header--bg-dark {
   background-color: #2B2B2B;
 }
 
-/* line 13, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 14, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level--custom a {
   font-size: 16px;
   margin-right: 20px;
 }
 
-/* line 25, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 23, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level.level--header {
   height: 50px;
 }
 
-/* line 29, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 27, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level a {
   color: white;
   font-weight: 500;
   text-decoration: none;
 }
 
-/* line 35, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 33, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level .level-left a {
   align-items: center;
   font-size: 11px;
   display: flex;
 }
 
-/* line 40, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+/* line 38, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
 .level .level-left [class*='fa-'] {
   color: #F8AA27;
   font-size: 17px;
   width: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 51, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
+  .logo-wrap {
+    padding-left: 0 !important;
+  }
 }
 
 /* line 56, /home/jide/Documents/repos/duplex/assets/scss/layout/_header.scss */
@@ -105,136 +120,8 @@
   color: #FFFFFF;
 }
 
-.nav-space .small-icon{
-  width:8px;
-  height:8px;
-  border:1px solid #e67e22;
-  transform:rotate(45deg);
-  margin-top: 47px;
-}
-
-.nav-space{
-  display: flex !important;
-  justify-content: space-between !important;
-  align-content: center;
-}
 
 
-.banner{
-  width:100%;
-  height:150px;
-  background-color: #EEE;
-  background: url(../../assets/img/banner.jpeg) center center fixed;
-
-}
-.hero{
-  align-items: center;
-  padding-top: 15px;
-}
-.hero h5{
-  margin-top:10px;
-}
-.hero h1:after{
-  
-  border-bottom: 2px solid #e67e22;
-  width:15px;
-  display:block;
-  content:" ";
-  margin: 0 auto;
-  margin-top: 20px;
-}
-h1{
-  font-size:30px;
-  font-weight: bold;
-}
-h2{
-  font-weight: bold;
-  font-size: 20px;
-}
-h5{
-  font-size: 15px;
-  font-weight: bold;
-   font-family: 'Vollkorn', serif;
-}
-.banner__below{
-  width:100%;
-  height:100px;
-  
-}
-.banner__below h5{
-  color:#e67e22;
-  position: absolute;
-  margin-top: 64px;
-  left:48%;
-
-}
-.banner__texts h2{
-  position:absolute;
-  left:45%;
-}
-.banner__texts h2:after{
-  border-bottom: 2px solid #e67e22;
-  width:15px;
-  display: block;
-  content: " ";
-  margin:0 auto;
-  margin-top: 10px;
-
-}
-.banner__texts .inner--text{
-  padding:60px 150px; 
-}
-
-.category__container{
-  width:600px;
-  display:block;
-  margin:15px auto;
-  overflow:hidden;
-}
-.category__item{
-  float:left;
-  width:15%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  padding: 20px 0;
-  cursor: pointer; 
-  font-size: 12px;
-  position: relative;
-  border-bottom: 1px solid #EEE;
-}
-.category__item:hover:after{
-  border-bottom: 2px solid black;
-  content:"";
-  bottom: 0;
-  position: absolute;
-  left:0;
-  width:100%;
-
-}
-.block__container{
-  margin-top: 20px;
-  width:800px;
-  height:700px;
-  display:block;
-  box-sizing: border-box;
-  margin:0 auto;
-}
-.duplex__item{
-  float:left;
-  box-sizing: border-box;
-  width:20%;
-  padding:5px;
-  transition: all 0.4s ease-in-out;
-
-}
-.hide{
-  transform:scale(0);
-  width:0;
-  padding: 0;
-  transition: all 0.4s ease-in-out;
-
-}
 
 /* line 1, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
 .footer {
@@ -268,14 +155,6 @@ h5{
   color: #FFF;
   text-transform: capitalize;
   line-height: normal !important;
-}
-.footer__title h4:after{
-  
-  border-bottom: 2px solid #e67e22;
-  width:15px;
-  display:block;
-  content:" ";
-  margin-top: 5px;
 }
 
 /* line 30, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */

@@ -2,6 +2,7 @@
   color: #FFFFFF;
   &:hover{
     color: $primary-color !important;
+    background-color: transparent !important;
   }
 }
 
@@ -14,9 +15,6 @@
     @extend %links;
     font-size: 16px;
     margin-right: 20px;
-    // &:hover{
-    //   color: $primary-color;
-    // }
   }
 }
 
@@ -46,11 +44,13 @@
 }
 
 .navbar-item{
-  // color: #FFFFFF;
-  // &:hover{
-  //   color: $primary-color !important;
-  // }
   @extend %links;
+}
+
+@media screen and (max-width: 1023px){
+  .logo-wrap {
+   padding-left: 0 !important;
+  }
 }
 
 .navbar-burger{

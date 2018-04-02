@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <script>
+
+
+            //****MODEL OF A BANK************//
+            // function BankAccount(name, age, address, gender){
+            //     var balance = 0;
+            //     var key = 'CODE';
+            //     this.name = name;
+            //     this.age = age,
+            //     this.address = address;
+            //     this.gender = gender;
+            //     this.credit = function(amount){
+            //         balance += amount;
+            //         return balance;
+            //     }
+            //     this.checkBalance = function(pin){
+            //         if(pin === key ){
+            //             return balance;
+            //         }
+            //         else{
+            //             return "Incorrect pin for user - " + this.name;
+            //         }
+            //     }
+            //     this.editpin = function(new_key){
+            //         key = new_key;
+            //     }
+            // }
+
+            // var customer = new BankAccount('Ahmed', 20, 'Yaba', 'male');
+
+            // console.log(customer);
+            // console.log( customer.credit(20000) );
+            // console.log( customer.checkBalance ('CODE') );
+            // console.log(customer);
+
+            // customer.editpin(1234);
+            // console.log( customer.checkBalance ('CODE') );
+
+            // BankAccount.prototype.gmail = 'ezeanigracie415@gmail.com';
+
+            // console.log(customer.gmail);
+
+
+            //******************** PROTOTYPING*****************//
+
+            // function Animal(name, numlegs, habitat){
+            //     this.name = name;
+            //     this.numlegs = numlegs;
+            //     this.habitat = habitat;
+            // }
+            // Animal.prototype.grow = function(){
+            //     return true;
+            // }
+            // Animal.prototype.sleep = function(){
+            //     return true;
+            // }
+            // var lion = new Animal('Lion', 4, 'land');
+            // var antelope = new Animal('Antelope', 4, 'land');
+            // var fish = new Animal('Fish', 0, 'Aquatic');
+
+            // console.log(lion.grow());
+
+
+            //***********INHERITANCE*************//
+
+            //  function Animal(name, numlegs, habitat){
+            //     this.name = name;
+            //     this.numlegs = numlegs;
+            //     this.habitat = habitat;
+            //     this.move = function(){
+            //         console.log('All animals can move');
+            //     }
+            //     this.respiration = true;
+
+            // }
+            // function Reptiles(name, tail, scale){
+            //     this.name = name;
+            //     this.tail = tail;
+            //     this.scale = scale;
+            //     this.respiration = false;
+            // }
+            // function Mammals(name, hair, fingers){
+            //     this.name = name;
+            //     this.hair = hair;
+            //     this.fingers = fingers;
+
+            // }
+
+            // Reptiles.prototype = new Animal();
+            // Mammals.prototype = new Animal();
+
+
+           
+            // var lion = new Animal('Lion', 4, 'land');
+            // var lizard = new Reptile('Lizard', 1, 'Countless');
+            // var femi = new Mammals('Femi', true, 10);
+
+            // console.log(Lizard.move());
+            // console.log(Lizzard.respiration);
+            // console.log(femi.respiration);
+            // // var antelope = new Animal('Antelope', 4, 'land');
+            // // var fish = new Animal('Fish', 0, 'Aquatic');
+
+            // console.log(Lion);
+
+
+
+
+            //*******************
+
+            var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+            // var date = new Date();
+            // var hour = date.getHours();
+            // var day = date.getDay();
+            // var today = days[day];
+
+            // console.log(hour, day, days[day]);
+
+            // if(hour >= 1 && hour < 12){
+            //     console.log("Good Morning, today is " + today);
+            // }
+            // if(hour >= 12 && hour < 16){
+            //     console.log("Good Afternoon, today is " + today);
+            // }
+
+            // if(hour >= 16 && hour < 19){
+            //     console.log("Good Evening, today is " + today);
+            // }
+
+            // if(hour >= 19 && hour < 24){
+            //     console.log("Good Night, tomorrow is " + days[day + 1]);
+            // }
+            
+
+            var months = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+            var date = new Date();
+            var hour = date.getHours();
+            var day = date.getDay();
+            var months = date.getMonth();
+
+            console.log(hour, months, days[day]);
+            console.log(months);
+
+            // if(hour >= 1 && hour < 12){
+            //     console.log("Good Morning, today is " + " in the month of " + months[month]);
+            // }
+            // if(hour >= 12 && hour < 16){
+            //     console.log("Good Afternoon, today is " + );
+            // }
+
+            // if(hour >= 16 && hour < 19){
+            //     console.log("Good Evening, today is " + today);
+            // }
+
+            // if(hour >= 19 && hour < 24){
+            //     console.log("Good Night, tomorrow is " + days[day + 1]);
+        // }
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              //PUBLIC AND PRIVATE KEYS///
+
+            // function Person(name, age, height){
+            //     this.name = name;
+            //     this.age = age;
+            //     this.height = height;
+            //     this.walk = function(){
+            //         return this.name + ' can walk.';
+            //     }
+
+            //     this.access = function(pin){
+            //         if(pin === 1234){
+            //             return secret;
+            //         }
+            //         else{
+            //             return "You're not " + this.name
+            //         }
+            //     }
+                
+            // }
+            // var Bola = new Person('Bola', 25, '5ft');
+            // var femi = new Person('femi', 25, '6ft'); //Instanctaion
+            // console.log(bola.walk());
+            // console.log(femi.walk());
+
+            // console.log (  femi.access(1234) );
+
+
+
+
+
+
+
+
+            // var femi = {
+            //     name : 'Femi',
+            //     age : 25,
+            //     height : '6ft'
+            // }
+
+            // console.log(femi);
+
+            // var frClass = [
+            //     {
+            //         name: 'Grace',
+            //         age: 24,
+            //         height: '5ft',
+
+            //     },
+            //     {
+            //       name: 'Yomi',
+            //       age: 25,
+            //       height: '5.7ft',  
+            //     }
+            // ]
+
+            
+
+            // function Person(name, age, height){
+            //     this.name = name;
+            //     this.age = age;
+            //     this.height = height;
+                
+            // }
+            // frClass.forEach(function(item){
+            //     console.log( new Person(item.name, item.age, item.height) );
+            // })
+            // var femi = new Person('femi', 25, '6ft'); //Instanctaion
+        </script>
+    
+    </body>
+</html>

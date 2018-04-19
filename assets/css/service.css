@@ -207,6 +207,47 @@
   width: 55px;
 }
 
+.full--width {
+  width: 100%;
+}
+
+#margin--top--bottom__100 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.share {
+  display: flex;
+  justify-content: center;
+}
+
+/* social media buttons  */
+.share--button {
+  background: transparent;
+  color: #cccccc;
+  border-radius: 100px;
+  border: 1px solid #cccccc;
+  /* padding: 2px 10px; */
+  display: flex;
+  height: 40px;
+  width: 40px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+.margin--top__5 {
+  margin-top: 5px;
+}
+.margin--top__16 {
+  margin-top: 16px;
+}
+.margin--bottom__5 {
+margin-bottom: 10px;
+}
 /* line 88, /home/jide/Documents/repos/duplex/assets/scss/layout/_footer.scss */
 .footer__contents .footer__thumbnail.footer__thumbnail-w {
   width: 60px;
